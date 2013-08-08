@@ -19,7 +19,7 @@ Or install it yourself as:
 
 ## Usage
 
-```
+```erb
 <%= pluralize @parts.size, "part" do |count, word| %>
   <strong><%= count %></strong> <%= word %> found!
 <% end %>
