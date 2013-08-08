@@ -1,12 +1,13 @@
 # BetterPluralize
 
-TODO: Write a gem description
+Adds block support to the Rails' pluralize view helper so you can customize its
+output.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'better_pluralize'
+    gem "better_pluralize"
 
 And then execute:
 
@@ -18,7 +19,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+<%= pluralize @parts.size, "part" do |count, word| %>
+  <strong><%= count %></strong> <%= word %> found!
+<% end %>
+```
 
 ## Contributing
 
