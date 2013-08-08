@@ -19,6 +19,8 @@ Or install it yourself as:
 
 ## Usage
 
+The helper behaves exactly as the official one except it allows you to pass an additional block that receives the current count and the pluralized word.
+
 ```erb
 <%= pluralize @parts.size, "part" do |count, word| %>
   <strong><%= count %></strong> <%= word %> found!
