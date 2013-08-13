@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["mekishizufu@gmail.com"]
   spec.description   = "Adds block support to the Rails' pluralize view helper so you can further customize its output"
   spec.summary       = "Adds block support to the Rails' pluralize view helper"
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/mekishizufu/better_pluralize"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
